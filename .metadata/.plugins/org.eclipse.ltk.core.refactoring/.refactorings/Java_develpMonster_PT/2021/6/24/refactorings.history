@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;thisis.java.chap06.ㅠ&apos; to &apos;B&apos;&#x0D;&#x0A;- Original project: &apos;Java_develpMonster_PT&apos;&#x0D;&#x0A;- Original element: &apos;thisis.java.chap06.ㅠ&apos;&#x0D;&#x0A;- Renamed element: &apos;thisis.java.chap06.B&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Rename similarly named elements&#x0D;&#x0A;- Update fully qualified names in &apos;*&apos; files&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ㅠ&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;thisis.java.chap06{ㅠ.java[ㅠ" matchStrategy="1" name="B" patterns="*" qualified="true" references="true" similarDeclarations="true" stamp="1623325688663" textual="true" version="1.0"/>
+</session>

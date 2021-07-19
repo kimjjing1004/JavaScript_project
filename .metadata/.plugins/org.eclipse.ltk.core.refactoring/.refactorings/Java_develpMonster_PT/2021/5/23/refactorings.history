@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;thisis.java.chap04.WhitePrintFrom1To10Example&apos; to &apos;WhilePrintFrom1To10Example&apos;&#x0D;&#x0A;- Original project: &apos;Java_develpMonster_PT&apos;&#x0D;&#x0A;- Original element: &apos;thisis.java.chap04.WhitePrintFrom1To10Example&apos;&#x0D;&#x0A;- Renamed element: &apos;thisis.java.chap04.WhilePrintFrom1To10Example&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WhitePrintFrom1To10Example&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;thisis.java.chap04{WhitePrintFrom1To10Example.java[WhitePrintFrom1To10Example" matchStrategy="1" name="WhilePrintFrom1To10Example" qualified="false" references="true" similarDeclarations="false" stamp="1622462107594" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;chap06&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     lib.js&#x0D;&#x0A;     ex06-02.html&#x0D;&#x0A;     ex06-01.html&#x0D;&#x0A;     ex06-03.html" description="Copy files" element1="lib.js" element2="ex06-02.html" element3="ex06-01.html" element4="ex06-03.html" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1625100139734" target="/JS_Project/src/main/webapp" units="0" version="1.0"/>
+</session>

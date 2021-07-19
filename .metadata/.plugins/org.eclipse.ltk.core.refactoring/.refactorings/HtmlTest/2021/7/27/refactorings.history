@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 7 elements to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;HtmlTest&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     sample.html&#x0D;&#x0A;     Exercise&#x0D;&#x0A;     chap01&#x0D;&#x0A;     chap02&#x0D;&#x0A;     chap03&#x0D;&#x0A;     chap04&#x0D;&#x0A;     chap05" description="Copy elements" element1="src/main/webapp/sample.html" element2="src/main/webapp/Exercise" element3="src/main/webapp/chap01" element4="src/main/webapp/chap02" element5="src/main/webapp/chap03" element6="src/main/webapp/chap04" element7="src/main/webapp/chap05" files="1" flags="589830" folders="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1625128562769" target="/HTML_CSS/src/main/webapp" units="0" version="1.0"/>
+</session>

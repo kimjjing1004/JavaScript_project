@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>겜블링 게임</title>
+<script>
+function createNum(obj) {
+	obj.gamble = document.querySelector(".number");	
+	obj.innerHTML = Math.floor(Math.random() * 3);	
+}
+function judgement() {
+	let number = document.querySelectorAll(".number");
+	let div = document.createElement('div');
+	
+	if (number[0].innerHTML===number[1].innerHTML && number[1].innerHTML===number[2].innerHTML && number[0].innerHTML===number[2].innerHTML) {
+		div.innerHTML = "베팅 성공";	
+	}
+	else {
+		div.innerHTML = "베팅 실패";
+	}
+	document.body.appendChild(div);
+}
+</script>
+</head>
+<body>
+<h3>겜블링 게임</h3>
+각 숫자를 클릭하면 0에서 2사이의 난수로 바뀝니다. 모두 같은 수가 나오면 승리합니다.
+<hr>
+<div id="gambling" style="background-color: orange; color: blue;
+border:1px solid; font-size:50px; text-align:center; width:130px; height:60px">
+<span id="num1" class = "number" onclick="createNum(this);" style="color: blue; font-size:50px; text-align:center">0</span>
+<span id="num2" class = "number" onclick="createNum(this);" style="color: blue; font-size:50px; text-align:center">0</span>
+<span id="num3" class = "number" onclick="createNum(this); judgement();" style="color: blue; font-size:50px; text-align:center">0</span>
+</div>
+</body>
+</html>

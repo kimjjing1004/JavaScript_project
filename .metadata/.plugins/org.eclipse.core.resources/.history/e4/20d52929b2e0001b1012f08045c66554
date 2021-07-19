@@ -1,0 +1,12 @@
+package this_is_java.chap08;
+
+public class Dog implements Soundable {
+private String bark;
+	
+	public String void sound() {
+		System.out.println("멍멍");
+		
+	}
+
+
+}

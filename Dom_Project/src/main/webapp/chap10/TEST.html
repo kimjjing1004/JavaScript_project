@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>치킨런의 저주</title>
+<style>
+table, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+</style>
+</head>
+<body onload="createChicken();">
+<h3>치킨런의 저주</h3>
+<hr>
+<script>
+let randomChick = Math.floor(Math.random() * 100);	//	0 ~ 99의 정수
+function createChicken() {
+	// document.images[] 컬렉션에 <img> 객체들이 모두 붙어있다.
+	document.images[randomChick].src = "media/chickenRun.jpg";	//	사진의 링크
+	document.images[randomChick].alt = "chickenRun";
+	document.images[randomChick].style.visibility = "visible";	//	사진이 보이도록
+	
+	document.images[randomChick].addEventListener("click",
+			function () {	//	"익명함수"
+				document.images[randomChick].src = "";
+				document.images[randomChick].alt = "";
+				document.images[randomChick].style.visibility = "hidden";
+				randomChick = Math.floor(Math.random() * 100);			
+				createChicken();
+			});
+}
+
+let rowCnt = 10;
+let columnCnt = 10;
+
+document.write('<table width=500 height=500>');
+for (let i = 0; i < rowCnt; i++) {
+  document.write('<tr>');
+  for (let j = 0; j < columnCnt; j++)  {
+    document.write('<td><img src="" alt="" width=50 height=50></td>');
+  }
+  document.write('</tr>');
+}
+document.write('</table>');
+
+
+for(let i = 0; i < 100; i++) {
+	document.images[i].style.visibility = "hidden";
+}
+</script>
+</body>
+</html>
